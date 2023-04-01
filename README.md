@@ -11,3 +11,6 @@
 	sudo apt-get install rxvt-unicode tmux vim htop nmon ranger
 
 
+## Install configs
+
+	bash install.sh
