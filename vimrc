@@ -1,3 +1,6 @@
+" Colorscheme
+colorscheme slate 
+
 " Enable line numbers
 set number
 
@@ -31,6 +34,8 @@ call plug#begin('~/.vim/plugged')
 
 " List plugins
 Plug 'preservim/nerdtree'
+Plug 'tpope/vim-commentary'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
 
