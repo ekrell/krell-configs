@@ -8,9 +8,37 @@
 
 ## Install software (debian-based)
 
-	sudo apt-get install rxvt-unicode tmux vim htop nmon ranger
-
+	$ sudo apt-get install rxvt-unicode tmux vim htop nmon ranger
 
 ## Install configs
 
-	bash install.sh
+	$ bash install.sh
+
+## Other configs
+
+**Vim**
+
+Link the local .vimrc to the config files here
+
+    $ head ~/.vimrc 
+    source $REPOPATH/krell-configs/vimrc 
+    source $REPOPATH/krell-configs/vimrc_coc
+
+Install vim plugins 
+
+    $ vim
+    :PlugInstall
+
+**Vim CoC**
+
+Vim plugin [Conquer of Completion](https://github.com/neoclide/coc.nvim) requires additional installation behind `:PlugInstall`.
+
+    curl -sL install-node.vercel.app/lts | bash 
+
+Then install CoC plugins 
+
+    $ vim
+    :CocInstall coc-pyright
+    :CocInstall snippets
+    :CocInstall word 
+
