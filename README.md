@@ -42,3 +42,15 @@ Then install CoC plugins
     :CocInstall snippets
     :CocInstall word 
 
+## Bash configs (`.bashrc` additions)
+
+    # Local bin 
+    PATH=$PATH:$HOME/.local/bin/     
+
+    # PS1
+    PS1="\e[0;32m[\A \u] \$ \e[m "
+
+
+
+
+

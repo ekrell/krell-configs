@@ -8,19 +8,20 @@ set number
 " Enable syntax highlighting
 syntax on
 
-
 " Set tab width to 4 spaces
 set tabstop=4
 set shiftwidth=4
 set expandtab
 
-
 " Enable mouse support
-set mouse=a
-nmap <F2> :NERDTreeToggle<CR>
+set mouse=r
 
 " Set custom keybindings
 inoremap jj <Esc>
+nmap <F2> :NERDTreeToggle<CR>
+
+" Enable copying from vim to the system-clipboard
+set clipboard=unnamedplus  
 
 
 " Install vim-plug (plugin manager)
