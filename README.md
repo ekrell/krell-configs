@@ -33,14 +33,15 @@ Install vim plugins
 
 Vim plugin [Conquer of Completion](https://github.com/neoclide/coc.nvim) requires additional installation behind `:PlugInstall`.
 
-    curl -sL install-node.vercel.app/lts | bash 
-
+	# Install for local user
+ 	curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+	
 Then install CoC plugins 
 
     $ vim
     :CocInstall coc-pyright
-    :CocInstall snippets
-    :CocInstall word 
+    :CocInstall coc-snippets
+    :CocInstall coc-word 
 
 ## Bash configs (`.bashrc` additions)
 
