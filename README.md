@@ -21,10 +21,15 @@ It is only applicable if X is running. Use `echo $XDG_SESSION_TYPE` to check.
     cp Xresources ~/.Xresources
     xrdb ~/.Xresources
 
+To enable colors without X (pure `tty` session), can add the color codes to `~/.bashrc`: 
+
+    cat ttycolors.sh >> ~/.bashrc
 
 
 
 
+
+# OLD steps (currently going through these to incorporate into above)
 
 
 # Installation
