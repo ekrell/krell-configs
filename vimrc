@@ -1,9 +1,5 @@
-" Colorscheme
-colorscheme slate 
-
 " Enable line numbers
 set number
-
 
 " Enable syntax highlighting
 syntax on

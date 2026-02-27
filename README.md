@@ -3,6 +3,29 @@
 - Maintain a small collection of config files, extensions, etc
 - Installation steps for programs that Evan typically installs
 - Tested on Ubuntu 22.04.2 LTS
+- These rarely stray far from widely used dotfiles provided by others
+
+This is `step by step` instead of a big config file since it may be that only some parts are needed for customizing a specific machine. For example, I like to have my `vim` and `tmux` configs when I work on remote servers but may not need excessive customization. 
+
+# Part 1: Without Sudo Priviledge 
+
+These steps assume a normal user account, which is useful for working on servers without `sudo` ability. 
+
+**Xresources** 
+
+This dotfile is used to configure X client applications including terminal colors. 
+
+It is only applicable if X is running. Use `echo $XDG_SESSION_TYPE` to check. 
+
+    cp ~/.Xresources ~/.Xresources.orig 
+    cp Xresources ~/.Xresources
+    xrdb ~/.Xresources
+
+
+
+
+
+
 
 # Installation
 
