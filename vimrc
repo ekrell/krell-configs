@@ -17,8 +17,10 @@ inoremap jj <Esc>
 nmap <F2> :NERDTreeToggle<CR>
 
 " Enable copying from vim to the system-clipboard
-set clipboard=unnamedplus  
-
+set clipboard=unnamedplus
+"
+" Use 'nn' to toggle line numbers (for mouse or tmux copy)
+nnoremap nn :set number!<CR>
 
 " Install vim-plug (plugin manager)
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
@@ -35,4 +37,5 @@ Plug 'tpope/vim-commentary'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
+
 
