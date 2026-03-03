@@ -19,8 +19,8 @@ nmap <F2> :NERDTreeToggle<CR>
 " Enable copying from vim to the system-clipboard
 set clipboard=unnamedplus
 "
-" Use 'nn' to toggle line numbers (for mouse or tmux copy)
-nnoremap nn :set number!<CR>
+" Use 'n-n' to toggle line numbers (for mouse or tmux copy)
+nnoremap n-n :set number!<CR>
 
 " Install vim-plug (plugin manager)
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
