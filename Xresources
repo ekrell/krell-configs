@@ -6,7 +6,7 @@
 !
 ! Black
 *.color0:      #3d352a
-*.color8:      #9e8d8d
+*.color8:      #554444
 !
 ! Red
 *.color1:      #cd5c5c
@@ -30,7 +30,7 @@
 !
 ! Cyan
 *.color6:      #b0c4de
-*.color14:     #b0c4de
+*.color14:     #000000
 !
 ! White
 *.color7:      #bbaa99
@@ -42,10 +42,10 @@
 !*.colorUL:
 
 !! URxvt Appearance
-URxvt.font: xft:Terminus (TTF):pixelsize=20
-URxvt.boldFont: xft:Terminus (TTF):pixelsize=20
-URxvt.italicFont: xft:Terminus (TTF):pixelsize=20
-URxvt.boldItalicfont: xft:Terminus (TTF):pixelsize=20
+URxvt.font: xft:Terminus (TTF):pixelsize=18
+URxvt.boldFont: xft:Terminus (TTF):pixelsize=18
+URxvt.italicFont: xft:Terminus (TTF):pixelsize=18
+URxvt.boldItalicfont: xft:Terminus (TTF):pixelsize=18
 URxvt.letterSpace: -1
 URxvt.lineSpace: 0
 URxvt.geometry: 120x95
@@ -82,4 +82,4 @@ URxvt.underlineURLs: true
 URxvt.urlButton: 1
 
 !! Fix remote terminals
-URxvt*termName: rxvt
+!!URxvt*termName: rxvt
