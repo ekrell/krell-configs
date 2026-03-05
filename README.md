@@ -89,7 +89,7 @@ Configure CoC
     PATH=$PATH:$HOME/.local/bin/     
 
     # PS1
-    PS1="\e[0;32m[\A \u] \$ \e[m "
+    PS1='\[\e[38;5;159m\]\t|\W\[\e[0m\] \[\e[38;5;159m\]\\$\[\e[0m\] '
 
 
 
