@@ -73,6 +73,16 @@ Then install CoC plugins
     :CocInstall coc-snippets
     :CocInstall coc-word 
 
+Configure CoC 
+
+    # Disable the automatic Python type hints
+    $ vim 
+    :CocConfig
+    {
+        "pyright.enable": false,                                                      
+    }
+
+
 ## Bash configs (`.bashrc` additions)
 
     # Local bin 
