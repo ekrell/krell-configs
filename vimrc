@@ -38,4 +38,6 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
 
-
+" CoC completion window colors 
+:highlight CocFloating ctermfg=1 ctermbg=14
+:highlight CocMenuSel ctermfg=15 ctermbg=16
