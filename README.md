@@ -70,19 +70,8 @@ Vim plugin [Conquer of Completion](https://github.com/neoclide/coc.nvim) require
 Then install CoC plugins 
 
     $ vim
-    :CocInstall coc-pyright
     :CocInstall coc-snippets
     :CocInstall coc-word 
-
-Configure CoC 
-
-    # Disable the automatic Python type hints
-    $ vim 
-    :CocConfig
-    {
-        "pyright.enable": false,                                                      
-    }
-
 
 ## Bash configs (`.bashrc` additions)
 
