@@ -65,6 +65,7 @@ Vim plugin [Conquer of Completion](https://github.com/neoclide/coc.nvim) require
 
 	# Install for local user
  	curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+	nvm install --lts
 	
 Then install CoC plugins 
 
